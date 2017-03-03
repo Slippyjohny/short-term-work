@@ -1,0 +1,22 @@
+<div class="header">
+  <h1 class="category_header"> Категории работ
+    <%= link_to "Создать категорию",
+                new_category_path,
+                :class => 'btn btn-default head-button' %></h1>
+  <hr/>
+</div>
+
+
+
+<div class="row">
+  <% @categories.each do |category| %>
+      <div class="col-md-3">
+        <h4> <%= category.body %></h4>
+
+            <p><%=react_component "Tasks", {tasks:  category.tasks.limit(3).order("created_at DESC")}%></p>
+
+      </div>
+  <% end %>
+</div>
+
+

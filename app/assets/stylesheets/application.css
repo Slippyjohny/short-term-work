@@ -1,0 +1,93 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree .
+*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../assets/glyphicons-halflings-regular.eot');
+    src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/glyphicons-halflings-regular.woff') format('woff'),
+    url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+
+
+.col-lg-3 {
+    border-radius: 6px;
+    vertical-align: top;
+    background-color: #E4E4E4;
+}
+
+.with_image {
+    height: 35em;
+    border-radius: 6px;
+    background:transparent url("http://i2.cdn.turner.com/money/dam/assets/150422133644-life-and-work-balance-780x439.png") no-repeat center center /cover;
+    padding-bottom: 0px;
+}
+
+.col-md-3  {
+    margin-top: 1em;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+    border-radius: 6px;
+}
+
+.head-button {
+    float: right;
+    background-color: #1a87b7;
+    padding: 12px 22px;
+
+}
+
+footer {
+
+    float: right;
+
+}
+
+.background-color {
+    background-color: #FAFAFA;
+}
+
+.col-lg-9 {
+    margin-top: 0px;
+    border-radius: 6px;
+    border-style: hidden;
+
+}
+
+.category_header {
+    color: #5B5B5B;
+
+}
+.category_row {
+    margin-top: 2em;
+    padding-top: 0px;
+
+}
+
+.row .col-lg-3 a:visited {
+    color: darkcyan !important;
+}
+
+.row .col-md-3 a:visited {
+    color: darkcyan !important;
+}
+
+.page-header{
+    margin-top: 0px;
+
+
+}
+.col-md-12{
+  margin-top: 14em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
